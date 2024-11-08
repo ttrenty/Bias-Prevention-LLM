@@ -169,3 +169,5 @@ cython_debug/
 pixi.lock
 magic.lock
 huggingface_pytorch_transformers.ipynb
+model/
+submission*
