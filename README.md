@@ -94,8 +94,8 @@ Main readings:
     https://arxiv.org/abs/2010.00133  
     https://github.com/nyu-mll/crows-pairs
 
-11 **CIVICS: Building a Dataset for Examining Culturally-Informed Values in Large Language Models**
-   https://arxiv.org/html/2405.13974v1
+11 **CIVICS: Building a Dataset for Examining Culturally-Informed Values in Large Language Models**  
+   https://arxiv.org/html/2405.13974v1  
    https://huggingface.co/CIVICS-dataset
 
 Others:  
