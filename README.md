@@ -28,7 +28,7 @@ This project does not aim to remove specific biases but rather proposes methods 
 
 ### During Pre-Training:
 
-- **Debiased Contrastive Learning**  
+- **Debiased Contrastive Learning (Optional)**  
   Use a debiased contrastive learning approach (WCL [NOVEL APPROACHES TO MITIGATE DATA BIAS AND MODEL BIAS FOR FAIR MACHINE LEARNING PIPELINES (page 104-107)](https://hammer.purdue.edu/articles/thesis/NOVEL_APPROACHES_TO_MITIGATE_DATA_BIAS_AND_MODEL_BIAS_FOR_FAIR_MACHINE_LEARNING_PIPELINES/25670736?file=45889836)) for fair self-supervised learning. This method introduce the concept of *relative difficulty*, which compares the similarity score with its bias-amplifying counterpart, eliminating the need for annotations of sensitive attributes or target labels.
   We need to make sure this can be applied in the context of LLM training, the data and output being text.
 
