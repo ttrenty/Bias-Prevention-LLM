@@ -21,6 +21,7 @@ This project does not aim to remove specific biases but rather proposes methods 
 ├── README.md        # The current file
 ├── LICENSE          # MIT License
 ├── pixi.toml        # Dependencies
+├── transformers.yml # Conda Dependencies, use `conda env create -f transformers.yml`
 ├── hands_on         # Experiement files to showcase some code snippets
 │    ├── ***.py         # TODO 
 │    ├── ***.ipynb      # TODO 
