@@ -171,3 +171,4 @@ magic.lock
 huggingface_pytorch_transformers.ipynb
 model/
 submission*
+data/generated/*

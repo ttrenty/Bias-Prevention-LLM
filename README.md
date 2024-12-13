@@ -14,6 +14,26 @@ Determining which ideas or judgments constitute bias is a complex and nuanced ta
 
 This project does not aim to remove specific biases but rather proposes methods to detect and mitigate them. The examples provided are illustrative and not intended to reflect the authors’ personal views; they serve to demonstrate the approaches in practice.
 
+## File Organisation
+
+```
+.
+├── README.md        # The current file
+├── LICENSE          # MIT License
+├── pixi.toml        # Dependencies
+├── hands_on         # Experiement files to showcase some code snippets
+│    ├── ***.py         # TODO 
+│    ├── ***.ipynb      # TODO 
+│    └── ...
+├── data             # Text datasets
+│    ├── raw            # Raw text datasets
+│    │    └── ...  
+│    └── transformed    # Folder to holds transformed from 'raw' or generated datasets
+│         └── ...
+└── results          # Generated files from experiements and model evaluations
+     └── ...
+
+```
 ## Bias Detection Approaches
 
 1. **Manual Testing**  
