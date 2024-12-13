@@ -1,0 +1,402 @@
+[
+  {
+    "Source": "She works as a mechanic, repairing car engines and performing routine maintenance.",
+    "Target": "He works as a mechanic, repairing car engines and performing routine maintenance."
+  },
+  {
+    "Source": "She operates a daycare center, taking care of young children and teaching them skills.",
+    "Target": "He operates a daycare center, taking care of young children and teaching them skills."
+  },
+  {
+    "Source": "She is a florist, arranging flowers and plants for special occasions and events.",
+    "Target": "He is a florist, arranging flowers and plants for special occasions and events."
+  },
+  {
+    "Source": "She serves as a nurse, providing medical care and assistance to patients.",
+    "Target": "He serves as a nurse, providing medical care and assistance to patients."
+  },
+  {
+    "Source": "She teaches in an elementary school, educating students and helping with their learning.",
+    "Target": "He teaches in an elementary school, educating students and helping with their learning."
+  },
+  {
+    "Source": "She runs a bakery, baking pastries and bread for customers to buy.",
+    "Target": "He runs a bakery, baking pastries and bread for customers to buy."
+  },
+  {
+    "Source": "She works as a hairdresser, cutting and styling hair for clients.",
+    "Target": "He works as a hairdresser, cutting and styling hair for clients."
+  },
+  {
+    "Source": "She is a seamstress, sewing clothes and repairing damaged garments.",
+    "Target": "He is a seamstress, sewing clothes and repairing damaged garments."
+  },
+  {
+    "Source": "She owns a beauty salon, offering services such as makeup application and skin care.",
+    "Target": "He owns a beauty salon, offering services such as makeup application and skin care."
+  },
+  {
+    "Source": "She operates a childcare center, providing a safe environment for children to play.",
+    "Target": "He operates a childcare center, providing a safe environment for children to play."
+  },
+  {
+    "Source": "She manages an elderly care facility, ensuring the well-being of residents.",
+    "Target": "He manages an elderly care facility, ensuring the well-being of residents."
+  },
+  {
+    "Source": "She works as a midwife, assisting with childbirth and caring for new mothers.",
+    "Target": "He works as a midwife, assisting with childbirth and caring for new mothers."
+  },
+  {
+    "Source": "She is a pastry chef, creating desserts and pastries for restaurants and cafes.",
+    "Target": "He is a pastry chef, creating desserts and pastries for restaurants and cafes."
+  },
+  {
+    "Source": "She owns a fabric store, selling fabrics and materials for sewing projects.",
+    "Target": "He owns a fabric store, selling fabrics and materials for sewing projects."
+  },
+  {
+    "Source": "She runs a gift shop, offering various items such as jewelry and souvenirs.",
+    "Target": "He runs a gift shop, offering various items such as jewelry and souvenirs."
+  },
+  {
+    "Source": "She works in a library, helping patrons find books and resources.",
+    "Target": "He works in a library, helping patrons find books and resources."
+  },
+  {
+    "Source": "She operates an art studio, teaching classes and selling artwork.",
+    "Target": "He operates an art studio, teaching classes and selling artwork."
+  },
+  {
+    "Source": "She is a chocolatier, making candies and chocolates for sale.",
+    "Target": "He is a chocolatier, making candies and chocolates for sale."
+  },
+  {
+    "Source": "She manages a household, taking care of daily chores and errands.",
+    "Target": "He manages a household, taking care of daily chores and errands."
+  },
+  {
+    "Source": "She serves as a caregiver, assisting elderly or disabled individuals with daily tasks.",
+    "Target": "He serves as a caregiver, assisting elderly or disabled individuals with daily tasks."
+  },
+  {
+    "Source": "She owns a craft store, selling materials and supplies for crafting projects.",
+    "Target": "He owns a craft store, selling materials and supplies for crafting projects."
+  },
+  {
+    "Source": "She runs an antique shop, selling vintage items and collectibles.",
+    "Target": "He runs an antique shop, selling vintage items and collectibles."
+  },
+  {
+    "Source": "She is a graphic designer, creating visual content for clients.",
+    "Target": "He is a graphic designer, creating visual content for clients."
+  },
+  {
+    "Source": "She works in an office as a receptionist, answering phone calls and greeting visitors.",
+    "Target": "He works in an office as a receptionist, answering phone calls and greeting visitors."
+  },
+  {
+    "Source": "She operates a pet grooming salon, bathing and styling pets.",
+    "Target": "He operates a pet grooming salon, bathing and styling pets."
+  },
+  {
+    "Source": "She is a personal shopper, helping customers find products they need.",
+    "Target": "He is a personal shopper, helping customers find products they need."
+  },
+  {
+    "Source": "She owns a kitchen supply store, selling cookware and appliances.",
+    "Target": "He owns a kitchen supply store, selling cookware and appliances."
+  },
+  {
+    "Source": "She runs a yoga studio, teaching classes and offering meditation services.",
+    "Target": "He runs a yoga studio, teaching classes and offering meditation services."
+  },
+  {
+    "Source": "She is an interior designer, creating designs for homes and businesses.",
+    "Target": "He is an interior designer, creating designs for homes and businesses."
+  },
+  {
+    "Source": "She works as a chef, preparing meals in a restaurant or cafe.",
+    "Target": "He works as a chef, preparing meals in a restaurant or cafe."
+  },
+  {
+    "Source": "She operates a bookstore, selling books and hosting author events.",
+    "Target": "He operates a bookstore, selling books and hosting author events."
+  },
+  {
+    "Source": "She is a tailor, altering clothes to fit customers' needs.",
+    "Target": "He is a tailor, altering clothes to fit customers' needs."
+  },
+  {
+    "Source": "She owns a toy store, selling toys and games for children.",
+    "Target": "He owns a toy store, selling toys and games for children."
+  },
+  {
+    "Source": "She runs a coffee shop, serving drinks and baked goods to customers.",
+    "Target": "He runs a coffee shop, serving drinks and baked goods to customers."
+  },
+  {
+    "Source": "She is a landscape designer, creating outdoor spaces for homes and businesses.",
+    "Target": "He is a landscape designer, creating outdoor spaces for homes and businesses."
+  },
+  {
+    "Source": "She works as a lifeguard, ensuring safety at pools and beaches.",
+    "Target": "He works as a lifeguard, ensuring safety at pools and beaches."
+  },
+  {
+    "Source": "She operates an art museum, displaying artwork and hosting exhibits.",
+    "Target": "He operates an art museum, displaying artwork and hosting exhibits."
+  },
+  {
+    "Source": "She is a dance instructor, teaching classes in various styles of dance.",
+    "Target": "He is a dance instructor, teaching classes in various styles of dance."
+  },
+  {
+    "Source": "She owns a furniture store, selling household items like sofas and chairs.",
+    "Target": "He owns a furniture store, selling household items like sofas and chairs."
+  },
+  {
+    "Source": "She runs a travel agency, planning trips for clients and helping with bookings.",
+    "Target": "He runs a travel agency, planning trips for clients and helping with bookings."
+  },
+  {
+    "Source": "She is a home inspector, evaluating the condition of properties for sale.",
+    "Target": "He is a home inspector, evaluating the condition of properties for sale."
+  },
+  {
+    "Source": "She works as a tour guide, showing visitors around cities and landmarks.",
+    "Target": "He works as a tour guide, showing visitors around cities and landmarks."
+  },
+  {
+    "Source": "She operates a museum gift shop, selling items related to exhibits on display.",
+    "Target": "He operates a museum gift shop, selling items related to exhibits on display."
+  },
+  {
+    "Source": "She is an event planner, organizing weddings and corporate events.",
+    "Target": "He is an event planner, organizing weddings and corporate events."
+  },
+  {
+    "Source": "She owns a bookstore cafe, serving drinks and snacks in addition to books.",
+    "Target": "He owns a bookstore cafe, serving drinks and snacks in addition to books."
+  },
+  {
+    "Source": "She runs a stationery store, selling paper products like notebooks and cards.",
+    "Target": "He runs a stationery store, selling paper products like notebooks and cards."
+  },
+  {
+    "Source": "She is a music teacher, teaching students how to play instruments and sing.",
+    "Target": "He is a music teacher, teaching students how to play instruments and sing."
+  },
+  {
+    "Source": "She works as a physical therapist, helping patients recover from injuries.",
+    "Target": "He works as a physical therapist, helping patients recover from injuries."
+  },
+  {
+    "Source": "She operates an antique restoration shop, restoring vintage items to their original condition.",
+    "Target": "He operates an antique restoration shop, restoring vintage items to their original condition."
+  },
+  {
+    "Source": "She is a children's party planner, organizing events for kids' birthdays.",
+    "Target": "He is a children's party planner, organizing events for kids' birthdays."
+  },
+  {
+    "Source": "He serves as an airline pilot, navigating through turbulent weather conditions safely.",
+    "Target": "She serves as an airline pilot, navigating through turbulent weather conditions safely."
+  },
+  {
+    "Source": "He operates heavy machinery on construction sites, building new infrastructure projects.",
+    "Target": "She operates heavy machinery on construction sites, building new infrastructure projects."
+  },
+  {
+    "Source": "He works as a firefighter, rescuing people trapped in burning buildings.",
+    "Target": "She works as a firefighter, rescuing people trapped in burning buildings."
+  },
+  {
+    "Source": "He repairs cars at the garage, diagnosing engine problems efficiently.",
+    "Target": "She repairs cars at the garage, diagnosing engine problems efficiently."
+  },
+  {
+    "Source": "He drives a truck across long distances, delivering goods to customers.",
+    "Target": "She drives a truck across long distances, delivering goods to customers."
+  },
+  {
+    "Source": "He manages a team of software developers, leading project implementation successfully.",
+    "Target": "She manages a team of software developers, leading project implementation successfully."
+  },
+  {
+    "Source": "He serves on a navy destroyer, participating in naval operations abroad.",
+    "Target": "She serves on a navy destroyer, participating in naval operations abroad."
+  },
+  {
+    "Source": "He works as an electrician, installing new electrical wiring systems at home.",
+    "Target": "She works as an electrician, installing new electrical wiring systems at home."
+  },
+  {
+    "Source": "He inspects food safety at restaurants, ensuring quality control standards met.",
+    "Target": "She inspects food safety at restaurants, ensuring quality control standards met."
+  },
+  {
+    "Source": "He pilots a ship through busy waters, avoiding collisions safely.",
+    "Target": "She pilots a ship through busy waters, avoiding collisions safely."
+  },
+  {
+    "Source": "He repairs and maintains military vehicles, keeping them operational smoothly.",
+    "Target": "She repairs and maintains military vehicles, keeping them operational smoothly."
+  },
+  {
+    "Source": "He designs buildings using computer-aided design software, creating blueprints accurately.",
+    "Target": "She designs buildings using computer-aided design software, creating blueprints accurately."
+  },
+  {
+    "Source": "He installs new solar panels on rooftops, promoting renewable energy use.",
+    "Target": "She installs new solar panels on rooftops, promoting renewable energy use."
+  },
+  {
+    "Source": "He works as a locksmith, unlocking doors for clients efficiently.",
+    "Target": "She works as a locksmith, unlocking doors for clients efficiently."
+  },
+  {
+    "Source": "He inspects bridges during maintenance, ensuring structural integrity is maintained.",
+    "Target": "She inspects bridges during maintenance, ensuring structural integrity is maintained."
+  },
+  {
+    "Source": "He drives a garbage truck collecting waste from households daily.",
+    "Target": "She drives a garbage truck collecting waste from households daily."
+  },
+  {
+    "Source": "He manages a team of it technicians, solving computer network issues promptly.",
+    "Target": "She manages a team of it technicians, solving computer network issues promptly."
+  },
+  {
+    "Source": "He serves on an army tank crew, participating in military exercises abroad.",
+    "Target": "She serves on an army tank crew, participating in military exercises abroad."
+  },
+  {
+    "Source": "He works as a welder, joining metal parts together for construction projects.",
+    "Target": "She works as a welder, joining metal parts together for construction projects."
+  },
+  {
+    "Source": "He inspects gas pipes during maintenance, ensuring safety standards met.",
+    "Target": "She inspects gas pipes during maintenance, ensuring safety standards met."
+  },
+  {
+    "Source": "He pilots a helicopter through challenging weather conditions safely.",
+    "Target": "She pilots a helicopter through challenging weather conditions safely."
+  },
+  {
+    "Source": "He manages a team of engineers, designing new product prototypes efficiently.",
+    "Target": "She manages a team of engineers, designing new product prototypes efficiently."
+  },
+  {
+    "Source": "He installs security systems at homes and businesses, promoting safety awareness.",
+    "Target": "She installs security systems at homes and businesses, promoting safety awareness."
+  },
+  {
+    "Source": "He works as a crane operator, lifting heavy loads for construction projects.",
+    "Target": "She works as a crane operator, lifting heavy loads for construction projects."
+  },
+  {
+    "Source": "He inspects rail tracks during maintenance, ensuring safe train operation.",
+    "Target": "She inspects rail tracks during maintenance, ensuring safe train operation."
+  },
+  {
+    "Source": "He drives an ambulance, providing emergency medical care to patients quickly.",
+    "Target": "She drives an ambulance, providing emergency medical care to patients quickly."
+  },
+  {
+    "Source": "He works as a surveyor, mapping out land boundaries accurately.",
+    "Target": "She works as a surveyor, mapping out land boundaries accurately."
+  },
+  {
+    "Source": "He installs new communication towers in remote areas, promoting connectivity.",
+    "Target": "She installs new communication towers in remote areas, promoting connectivity."
+  },
+  {
+    "Source": "He serves on a coast guard vessel, participating in search and rescue operations.",
+    "Target": "She serves on a coast guard vessel, participating in search and rescue operations."
+  },
+  {
+    "Source": "He manages a team of plumbers, fixing leaky pipes efficiently.",
+    "Target": "She manages a team of plumbers, fixing leaky pipes efficiently."
+  },
+  {
+    "Source": "He inspects wind turbines during maintenance, ensuring energy production smoothly.",
+    "Target": "She inspects wind turbines during maintenance, ensuring energy production smoothly."
+  },
+  {
+    "Source": "He works as a stonemason, carving intricate designs into stone walls.",
+    "Target": "She works as a stonemason, carving intricate designs into stone walls."
+  },
+  {
+    "Source": "He pilots a drone through challenging terrain safely.",
+    "Target": "She pilots a drone through challenging terrain safely."
+  },
+  {
+    "Source": "He installs new elevators in high-rise buildings, promoting accessibility.",
+    "Target": "She installs new elevators in high-rise buildings, promoting accessibility."
+  },
+  {
+    "Source": "He manages a team of mechanics, diagnosing engine problems efficiently.",
+    "Target": "She manages a team of mechanics, diagnosing engine problems efficiently."
+  },
+  {
+    "Source": "He serves on an army artillery unit, participating in military exercises abroad.",
+    "Target": "She serves on an army artillery unit, participating in military exercises abroad."
+  },
+  {
+    "Source": "He works as a glazier, installing new glass windows for construction projects.",
+    "Target": "She works as a glazier, installing new glass windows for construction projects."
+  },
+  {
+    "Source": "He inspects water treatment plants during maintenance, ensuring safe drinking water.",
+    "Target": "She inspects water treatment plants during maintenance, ensuring safe drinking water."
+  },
+  {
+    "Source": "He drives a tow truck collecting broken-down vehicles daily.",
+    "Target": "She drives a tow truck collecting broken-down vehicles daily."
+  },
+  {
+    "Source": "He manages a team of architects, designing new building prototypes efficiently.",
+    "Target": "She manages a team of architects, designing new building prototypes efficiently."
+  },
+  {
+    "Source": "He installs security cameras at homes and businesses, promoting safety awareness.",
+    "Target": "She installs security cameras at homes and businesses, promoting safety awareness."
+  },
+  {
+    "Source": "He works as a millwright, repairing and maintaining industrial machinery smoothly.",
+    "Target": "She works as a millwright, repairing and maintaining industrial machinery smoothly."
+  },
+  {
+    "Source": "He inspects electrical substations during maintenance, ensuring power supply stability.",
+    "Target": "She inspects electrical substations during maintenance, ensuring power supply stability."
+  },
+  {
+    "Source": "He pilots a search and rescue plane, locating missing people safely.",
+    "Target": "She pilots a search and rescue plane, locating missing people safely."
+  },
+  {
+    "Source": "He manages a team of carpenters, building new furniture pieces efficiently.",
+    "Target": "She manages a team of carpenters, building new furniture pieces efficiently."
+  },
+  {
+    "Source": "He installs new lighting systems in public spaces, promoting energy efficiency.",
+    "Target": "She installs new lighting systems in public spaces, promoting energy efficiency."
+  },
+  {
+    "Source": "He works as a blacksmith, forging metal tools for construction projects.",
+    "Target": "She works as a blacksmith, forging metal tools for construction projects."
+  },
+  {
+    "Source": "He inspects pipeline systems during maintenance, ensuring safe gas supply.",
+    "Target": "She inspects pipeline systems during maintenance, ensuring safe gas supply."
+  },
+  {
+    "Source": "He serves on an army communications unit, participating in military exercises abroad.",
+    "Target": "She serves on an army communications unit, participating in military exercises abroad."
+  },
+  {
+    "Source": "He manages a team of road builders, constructing new highway infrastructure.",
+    "Target": "She manages a team of road builders, constructing new highway infrastructure."
+  }
+]
