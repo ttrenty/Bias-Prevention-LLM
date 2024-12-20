@@ -6,13 +6,13 @@
 
 This project explores methods to identify typical biases that emerge in Large Language Models (LLMs) and applies various strategies to mitigate them. The impact of these mitigation techniques is evaluated both in terms of their effectiveness in reducing bias and their potential side effects by comparing the modified model's performance against the original.  
 
-The definitions of bias provided by the Oxford and Cambridge dictionaries are as follows:  
+The definitions of **bias** provided by the Oxford and Cambridge dictionaries are as follows:  
 - **Oxford:** A strong feeling in favor of or against one group of people or one side in an argument, often not based on fair judgment.  
 - **Cambridge:** The action of supporting or opposing a particular person or thing in an unfair way, because of allowing personal opinions to influence your judgment.  
 
-Determining which ideas or judgments constitute bias is a complex and nuanced task as it involves subjective decisions. Selectively removing certain biases while neglecting others—whether inadvertently or intentionally—could potentially introduce further bias into the model. For a deeper discussion on this topic, we recommend OpenAI’s article on their approach to AI behavior: [How should AI systems behave, and who should decide?](https://openai.com/index/how-should-ai-systems-behave/).  
+Determining which ideas or judgments constitute bias is a complex and nuanced task as it involves subjective decisions. Also, selectively removing certain biases while neglecting others—whether inadvertently or intentionally—could potentially introduce further bias into the model. For a deeper discussion on this topic, we recommend OpenAI’s article on their approach to AI behavior where they explain how a group of people can help remove biases in a model: [How should AI systems behave, and who should decide?](https://openai.com/index/how-should-ai-systems-behave/).  
 
-This project does not aim to remove specific biases but rather proposes methods to detect and mitigate them. The examples provided are illustrative and not intended to reflect the authors’ personal views; they serve to demonstrate the approaches in practice.
+This project does not aim to remove specific biases but rather proposes methods to detect and mitigate a given bias and/or biases in general. The examples provided are illustrative and not intended to reflect the authors’ personal views; they serve to demonstrate the approaches in practice.
 
 ## File Organisation
 
@@ -22,15 +22,15 @@ This project does not aim to remove specific biases but rather proposes methods 
 ├── LICENSE          # MIT License
 ├── pixi.toml        # Dependencies
 ├── transformers.yml # Conda Dependencies, use `conda env create -f transformers.yml`
-├── hands_on         # Experiement files to showcase some code snippets
+├── hands_on         # Experimental files to showcase some code snippets
 │    ├── ***.py         # TODO 
 │    ├── ***.ipynb      # TODO 
 │    └── ...
 ├── data             # Text datasets
 │    ├── raw            # Raw text datasets
 │    │    └── ...  
-│    └── transformed    # Folder to holds transformed from 'raw' or generated datasets
-│         └── ...
+│    └── transformed    # Folder to hold transformed from 'raw' or generated datasets
+│         └── .gitignore
 └── results          # Generated files from experiements and model evaluations
      └── ...
 
@@ -55,6 +55,8 @@ For all the different biases one wishes to prevent, the following methods can be
   Use a debiased contrastive learning approach (WCL [NOVEL APPROACHES TO MITIGATE DATA BIAS AND MODEL BIAS FOR FAIR MACHINE LEARNING PIPELINES (page 104-107)](https://hammer.purdue.edu/articles/thesis/NOVEL_APPROACHES_TO_MITIGATE_DATA_BIAS_AND_MODEL_BIAS_FOR_FAIR_MACHINE_LEARNING_PIPELINES/25670736?file=45889836)) for fair self-supervised learning. This method introduce the concept of *relative difficulty*, which compares the similarity score with its bias-amplifying counterpart, eliminating the need for annotations of sensitive attributes or target labels.
   We need to make sure this can be applied in the context of LLM training, the data and output being text.
 
+- Mixing pre-training and fine-tuning methods that can act as regulation terms.
+
 ### During Fine-Tuning:
 
 1. **Model Self-Regulation**  
@@ -75,6 +77,32 @@ For all the different biases one wishes to prevent, the following methods can be
 ## Performance Testing
 
 - Evaluate model performance before and after bias mitigation [7, 8, 11] using an unbiased dataset. Ensure that the performance remains consistent [6, 9]. 
+
+
+
+## Roadmap
+
+**DONE:**
+
+- Initial approach to evaluate a given bias in an LLM decoder model.
+
+- Preliminary evaluation of ROUGE/BLEU scores for the base and modified models.
+
+- Implementation of a model self-regulation method.
+
+**Next Steps:**
+
+- Test different biases.
+
+- Evaluate the mitigation of two biases simultaneously and analyze sentences for each bias.
+
+- Generate a bias-free dataset to assess the base model's performance (ROUGE/BLEU).
+
+- Use the TruthfulQA benchmark to evaluate base model performance.
+
+- Perform soft fine-tuning by generating sentences against a specific bias (include saving and loading local models in Transformers).
+
+- ...
 
 
 ## Bibliography
