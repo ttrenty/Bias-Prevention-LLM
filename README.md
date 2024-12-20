@@ -89,6 +89,14 @@ For all the different biases one wishes to prevent, the following methods can be
 - Preliminary evaluation of ROUGE/BLEU scores for the base and modified models.
 
 - Implementation of a model self-regulation method.
+  
+- Biais identification related to gender and jobs in Bert predictions tokens
+
+- Starting implementing a model to fine tune bert with a shared loss for male and female, related to jobs
+
+- Implementation of a model to fine tune a text to text architecture to output less stereotyped job assignement.
+
+- Automatics generation of a dataset of sentences related to jobs and gender via LLM request
 
 **Next Steps:**
 
@@ -102,7 +110,9 @@ For all the different biases one wishes to prevent, the following methods can be
 
 - Perform soft fine-tuning by generating sentences against a specific bias (include saving and loading local models in Transformers).
 
-- ...
+- Train the T5 architecture on a large dataset  (text to text)
+
+- Finish implementing the model to fine tune Bert
 
 
 ## Bibliography
