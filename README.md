@@ -69,7 +69,7 @@ For all the different biases one wishes to prevent, the following methods can be
       Target the creation of sentences to the current most biased elements until convergence and iterated until all desired biases have been reduced by a margin within 5 % of each original classes.
 
    - **Loss Function Adjustment**  
-      Modify the loss function during fine-tuning to include a constraint for mitigating the specific bias. This constraint would aim for label distribution outputs within a margin of 5%.
+      Modify the loss function during fine-tuning to include a constraint for mitigating the specific bias. This constraint would aim for label distribution outputs within a margin of 5%. Do this constrain on 1 token and then iterate to remove biases on all `n` tokens, or do on all `n` tokens at once.
 
 3. **Direct Preference Optimization (DPO) (Optional)**  
    From https://arxiv.org/abs/2305.18290, more efficient and as effective as Reinforcement learning with human feedback (RLHF).
@@ -114,6 +114,11 @@ For all the different biases one wishes to prevent, the following methods can be
 
 - Finish implementing the model to fine tune Bert
 
+- LLM Judge avec LM Studio
+
+- Encoder --> Decoder : Check if a classifier can classify sentences that are biased in the --> section
+
+- Update BERT to ModernBERT
 
 ## Bibliography
 
