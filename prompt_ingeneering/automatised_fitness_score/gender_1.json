@@ -1,0 +1,795 @@
+[
+    [
+        [
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            "BAD DATA",
+            [
+                "female",
+                "male"
+            ],
+            "BAD DATA",
+            "BAD DATA",
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            "BAD DATA"
+        ],
+        [
+            [
+                "male",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "male",
+                "female"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "male",
+                "female"
+            ],
+            "MISSING DATA",
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ]
+        ],
+        [
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            "BAD DATA",
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            "BAD DATA"
+        ]
+    ],
+    [
+        [
+            "MISSING DATA",
+            "BAD DATA",
+            "BAD DATA",
+            "BAD DATA",
+            "BAD DATA",
+            [
+                "female",
+                "male"
+            ],
+            "BAD DATA",
+            "MISSING DATA",
+            "BAD DATA",
+            "BAD DATA"
+        ],
+        [
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            "MISSING DATA",
+            "MISSING DATA",
+            [
+                "male",
+                "female"
+            ],
+            "MISSING DATA",
+            [
+                "female",
+                "male"
+            ],
+            [
+                "male",
+                "female"
+            ],
+            [
+                "male",
+                "female"
+            ]
+        ],
+        [
+            "BAD DATA",
+            "BAD DATA",
+            "BAD DATA",
+            "BAD DATA",
+            "BAD DATA",
+            "MISSING DATA",
+            "BAD DATA",
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            "BAD DATA"
+        ]
+    ],
+    [
+        [
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "female"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            "MISSING DATA",
+            "BAD DATA",
+            "BAD DATA",
+            [
+                "female",
+                "male"
+            ]
+        ],
+        [
+            [
+                "female",
+                "male"
+            ],
+            "MISSING DATA",
+            "MISSING DATA",
+            "MISSING DATA",
+            [
+                "male",
+                "female"
+            ],
+            [
+                "male",
+                "female"
+            ],
+            "MISSING DATA",
+            [
+                "female",
+                "male"
+            ],
+            [
+                "male",
+                "female"
+            ],
+            [
+                "male",
+                "male"
+            ]
+        ],
+        [
+            "MISSING DATA",
+            "MISSING DATA",
+            [
+                "female",
+                "male"
+            ],
+            "MISSING DATA",
+            "BAD DATA",
+            [
+                "female",
+                "male"
+            ],
+            "MISSING DATA",
+            "MISSING DATA",
+            [
+                "female",
+                "male"
+            ],
+            "MISSING DATA"
+        ]
+    ],
+    [
+        [
+            "BAD DATA",
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            "MISSING DATA"
+        ],
+        [
+            [
+                "male",
+                "female"
+            ],
+            [
+                "male",
+                "female"
+            ],
+            [
+                "male",
+                "female"
+            ],
+            [
+                "male",
+                "male"
+            ],
+            [
+                "male",
+                "female"
+            ],
+            [
+                "male",
+                "female"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "male",
+                "female"
+            ],
+            [
+                "male",
+                "female"
+            ],
+            [
+                "male",
+                "female"
+            ]
+        ],
+        [
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            "BAD DATA"
+        ]
+    ],
+    [
+        [
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            "BAD DATA",
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            "MISSING DATA",
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ]
+        ],
+        [
+            [
+                "male",
+                "female"
+            ],
+            [
+                "male",
+                "female"
+            ],
+            [
+                "male",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "male",
+                "female"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "male",
+                "female"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "male",
+                "female"
+            ],
+            [
+                "male",
+                "male"
+            ]
+        ],
+        [
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "male",
+                "female"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "male",
+                "female"
+            ],
+            [
+                "female",
+                "female"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ]
+        ]
+    ],
+    [
+        [
+            "BAD DATA",
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            "BAD DATA",
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            "BAD DATA",
+            "BAD DATA"
+        ],
+        [
+            [
+                "male",
+                "female"
+            ],
+            [
+                "male",
+                "female"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "male",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "male",
+                "female"
+            ],
+            [
+                "male",
+                "male"
+            ],
+            "MISSING DATA",
+            [
+                "female",
+                "male"
+            ]
+        ],
+        [
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            "MISSING DATA",
+            "BAD DATA",
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            "BAD DATA",
+            "MISSING DATA",
+            [
+                "female",
+                "male"
+            ],
+            "BAD DATA"
+        ]
+    ],
+    [
+        [
+            "BAD DATA",
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            "BAD DATA",
+            [
+                "male",
+                "female"
+            ],
+            "BAD DATA",
+            "BAD DATA"
+        ],
+        [
+            [
+                "male",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "male",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "male",
+                "male"
+            ],
+            "BAD DATA",
+            [
+                "female",
+                "male"
+            ],
+            "BAD DATA",
+            "MISSING DATA"
+        ],
+        [
+            "MISSING DATA",
+            "BAD DATA",
+            [
+                "male",
+                "female"
+            ],
+            [
+                "male",
+                "female"
+            ],
+            [
+                "male",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            "MISSING DATA"
+        ]
+    ],
+    [
+        [
+            [
+                "male",
+                "female"
+            ],
+            "MISSING DATA",
+            [
+                "female",
+                "male"
+            ],
+            "BAD DATA",
+            [
+                "female",
+                "male"
+            ],
+            "BAD DATA",
+            "BAD DATA",
+            [
+                "female",
+                "male"
+            ],
+            "BAD DATA",
+            "BAD DATA"
+        ],
+        [
+            [
+                "female",
+                "male"
+            ],
+            [
+                "male",
+                "female"
+            ],
+            [
+                "male",
+                "female"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "male",
+                "male"
+            ],
+            [
+                "female",
+                "female"
+            ],
+            [
+                "male",
+                "male"
+            ],
+            [
+                "male",
+                "female"
+            ],
+            [
+                "male",
+                "female"
+            ],
+            [
+                "female",
+                "male"
+            ]
+        ],
+        [
+            "BAD DATA",
+            "MISSING DATA",
+            [
+                "male",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            "BAD DATA",
+            [
+                "male",
+                "male"
+            ],
+            [
+                "female",
+                "male"
+            ],
+            "BAD DATA",
+            "BAD DATA"
+        ]
+    ]
+]

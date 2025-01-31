@@ -1,0 +1,68 @@
+Ce que j'ai appris avec Chatgpt :
+
+1 ) Je vais utiliser le modèle de langage BERT, comme ca si j'ai le temps je pourrai tester ses performances sur des taches de classifications
+Mais là, contrairement à l'exemple donné par le prof, on aurra essayé de corriger les biais intrinsèques au modèle, et non à la 
+classification.
+
+2) Je vais demander à un bon modèle de langage de générer des phrases très courtes avec peu de détails.
+Pourquoi des phrases très courtes ? Car tous les tokens auront autant de chance d'être masqué les uns que les autres, et donc
+si je prend des phrases plus longue il y a des chances qu'on homogénéise les vecteurs de probabilité en fonction du genre pour
+des thèmes autres que les métiers. Ex : qu'il soit autant probable pour une description physique qu'une femme ou un homme
+aient les cheveux longs, porte du maquillage ect.
+Dans l'idéale il faudrait demander au modèle de prédire seulement les tokens relatifs au métier, mais pour automatiser ce processus
+il faudrait un autre modèle de langage capable de détecter les tokens en rapports avec la profession. La bibliothèque Spacy m'a donné
+de bonnes espérances, malheureusement elle ne permet que de répérer des tokens en rapport avec les personnes et les lieux.
+
+3) En plus de la tache de masquage des tokens on va faire une tache de classification pour déterminer si deux phrases se suivent ou non
+Ici on veut pareil, que si les deux phrases sont homme ou femmme, la classification soit aussi bonne pour l'un que pour l'autre.
+A voir si c'est pas déjà le cas.
+Il faudrait des phrases au format : 
+What job is doing your wife ? Web developper for facebook.
+La première phrase doit donner une indication sur s'il s'agit d'un homme ou d'une femme. Ici wife nous renseigne sur le fait qu'on
+va parler d'une femme dans la deuxième phrase. La deuxième phrase ne doit pas donner d'indication sur le sexe de la personne.
+
+NB : Apparement ces deux taches sont combinées de sorte à ce que la loss in fine soit la combinaison de celles des deux taches.
+
+4) Pour obtenir ces résultats il va falloir customiser le calcul de la loss. Autrement dit créer une nouvelle classe qui hériterai
+de la classe native de Pytorch ou transformer, et ensuite on la passe à l'entrainement.
+Le seul petit soucis c'est qu'ici il faut que la loss dépende non pas d'un input mais de deux inputs, il faut donc matcher les inputs
+et ensuite les dématché. Chatgpt propsose une solution pour ça, que je n'ai pas encore complètement comprise.
+Il faut donc bien créer une classe customiser et override ComputeLoss mais en plus de cela il faut s'assurer que dans le
+format des données d'entrées on a un dictionnaire avec phrase_homme, phrase_femmme, et comme ca on match facilement l'un à l'autre
+mais le problème c'est que du coup j'ai l'impression qu'on applique la loss qu'une fois pour propager l'erreur de phrase homme mais
+pas de phrase femme. Avec cette exemple on ne peut pas vraiment faire de loss différente en fonction de homme ou femme.
+Ou alors il faudrait concaténer les loss et outputs1 et outputs2, comme ca on aurait tout.
+
+5) A priori il faut que j'override self.training_steps car c'est là où on appelle backward.
+
+6) En fait je ne devrai pas avoir besoin de rétropropager différemment les deux.
+
+J'ai du mal à comprendre comment est associé le label avec le 
+
+On peut utiliser la similarity loss (MSE entre logits 1 et 2) mais dans ce cas là ca ne prendra pas en compte le vrai label (ca serait
+bien pour des phrases où il n'ya aucun context / indication sur le métier). par exemple : "He is an astronaut" vs "He is an astronaut because
+he love space." Dans le premier cas on veut qu'il puisse prédire n'importe quel métier, et dans le deuxième cas on veut que le modèle
+garde sa capacité à prédire un métier en rapport avec l'espace. En même temps si le modèle est déjà entraîné, les prédictions associées
+seront belle et bien en rapport avec l'espace. Donc peut être pas nécessaire. (à voir)
+
+Limite de ma méthode => Normalement quand on a plusieurs classe on fait du one hot encoding alors qu'en soit on pourrait utiliser
+un seul neurone avec des paliers, sauf que dans les fait ca marche moins bien, et (accessoirement ca crée un notion de distance entre les classes)
+J'ai peur que ca puisse marcher moins bien car la valeur à laquelle on demande au neurone de se rapprocher n'est pas un extrême comme
+0 ou 1.
+
+On part sur cette méthode de similarité et en même temps de label True.
+
+Le concept avec lequel j'ai un peu de mal => 
+Mes questions :
+Qu'est ce nn.module ? La classe dont hérite PairwiseLoss()
+
+Problème : 
+1) Je ne sais pas si je dois mettre des labels factices dans le training set pour qu'il n'ya ai pas d'erreur. 
+2) Il faut que je vérifie si Bert attends de recevoir des labels ou non. Et s'il renvoie lui même une fonction de coût,
+mais au pire on s'en fiche
+3) Je n'arrive pas à comprendre sous quels formes se trouve les labels. Si ils sont sous la forme d'un vecteur de taille
+vocab_size ou non.
+4) Quelle fonction de coût utiliser ? Sachant que j'en ai potentiellement besoin de deux différentes, une pour la similarité et une
+pour la ground_truth
+Pour l'instant on va utiliser la même fonction de coût pour les deux. Ca sera la MSE.
+

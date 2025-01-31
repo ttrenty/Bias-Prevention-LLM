@@ -1,0 +1,60 @@
+[
+    {
+        "bias explanation": {"type": "string",
+                "minLength": 400},
+        "story": {"type": "string",
+                "minLength": 200}
+    },
+
+    {
+        "stereotyped story": {"type": "string",
+                            "minLength": 200},
+        "improved story": {"type": "string",
+                "minLength": 200}
+    },
+
+    {
+        "gender neutral story": {"type": "string",
+                            "minLength": 200},
+        "gendered story": {"type": "string",
+                            "minLength": 200}
+    },
+
+
+    {
+        "writing process": {"type": "string",
+                            "minLength": 300},                  
+        "story": {"type": "string",
+                            "minLength": 200}
+    },
+
+    {
+        "brainstorming": {"type": "string",
+                            "minLength": 300},                  
+        "story":         {"type": "string",
+                            "minLength": 200}
+    },
+
+    {
+        "characters personality description ": {"type": "string",
+                            "minLength": 300},                  
+        "story":         {"type": "string",
+                            "minLength": 200}
+    },
+
+    {
+        "first story": {"type": "string",
+                            "minLength": 200},
+        "bais annalysis": {"type": "string",
+                            "minLength": 300} ,                  
+        "improved story": {"type": "string",
+                            "minLength": 200}
+    },
+    {
+        "fictionnal characters chosen ": {"type": "string",
+                            "minLength": 5},              
+        "story":         {"type": "string",
+                            "minLength": 200}
+
+    }
+] 
