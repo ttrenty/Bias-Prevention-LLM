@@ -25,7 +25,6 @@ For example, recommending different jobs to individuals based on race—such as 
 ```
 .
 |-- README.md               # This file
-|-- llm-biases-presentation.pdf     # The slides used for the final presentation
 |-- LICENSE                 # MIT License
 |-- transformers.yml        # Conda environment dependencies; use `conda env create -f transformers.yml`
 |-- hands_on/               # Experimental files showcasing code snippets
