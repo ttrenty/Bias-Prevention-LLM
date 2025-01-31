@@ -25,7 +25,7 @@ For example, recommending different jobs to individuals based on race—such as 
 ```
 .
 |-- README.md               # This file
-|-- llm-biases-presentation # The slides used for the final presentation
+|-- llm-biases-presentation.pdf     # The slides used for the final presentation
 |-- LICENSE                 # MIT License
 |-- transformers.yml        # Conda environment dependencies; use `conda env create -f transformers.yml`
 |-- hands_on/               # Experimental files showcasing code snippets
@@ -87,7 +87,7 @@ For all the different biases one wishes to prevent, the following methods can be
 
 ## Performance Testing
 
-- Evaluate model performance before and after bias mitigation on our own datasets or existing datasets [7, 8, 11]. Ensure that the performance remains consistent [6, 9]m especially on *unbiased* dataset. 
+- Evaluate model performance before and after bias mitigation on our own datasets or existing datasets [7, 8, 11]. Ensure that the performance remains consistent [6, 9] especially on *unbiased* dataset. 
 
 # Use of a Genetic Algorithm for Prompt Designs 
  
@@ -165,7 +165,7 @@ Write an extract of a gendered story without stereotypes. To minimize gender bia
 4. Avoid generalizations or assumptions about characters based on their gender. Treat each character as an individual with distinct strengths, weaknesses, and aspirations.  
 5. Use inclusive and non-gendered language wherever possible. Be mindful of how words influence perceptions and attitudes towards gender.  
 
-**Task:** First, write a story that intentionally incorporates gender stereotypes to highlight their presence. Then, rewrite the story to consciously remove those stereotypes. Preface your first story with the label **STEREOTYPED STORY**: [your story with stereotypes]. Preface your second story with the label **IMPROVED STORY**: [your story without stereotypes]. If additional commentary is needed, preface it with **COMMENT**: [your comment].  
+First, write a story that intentionally incorporates gender stereotypes to highlight their presence. Then, rewrite the story to consciously remove those stereotypes. Preface your first story with the label **STEREOTYPED STORY**: [your story with stereotypes]. Preface your second story with the label **IMPROVED STORY**: [your story without stereotypes]. If additional commentary is needed, preface it with **COMMENT**: [your comment].  
 
 ---
 
@@ -175,20 +175,57 @@ Write a story that avoids gender bias by:
 2. Using non-visual descriptions to allow readers to infer the characters' physical appearances, focusing instead on their actions, thoughts, and emotions.  
 3. Portraying strengths and weaknesses as individual traits rather than inherently masculine or feminine qualities. Emphasize the characters' relationships, conflicts, and personal growth to craft an engaging and authentic narrative.  
 
-**Task:** Imagine you are a celebrated author known for creating nuanced characters. You are participating in a competition to demonstrate your deep understanding of male and female characters.  
+Imagine you are a celebrated author known for creating nuanced characters. You are participating in a competition to demonstrate your deep understanding of male and female characters.  
 1. Preface your approach with the label **THOUGHTS**: [your thoughts about writing well-rounded characters].  
 2. Follow this with the label **STORY**: [your story].  
 3. If commentary is necessary, preface it with **COMMENT**: [your comment].  
 
 # Fine-Tuning of Decoder LLM 
 
-In this section, the approaches for fine-tuning discussed in the presentation `llm-biases-presentation.pdf` (page 17-20) will be presented.
+In this section, the approaches for fine-tuning discussed in the presentation *llm-biases-presentation.pdf* (pages 17–20) are presented.
+
+## Direct and Indirect Fine-Tuning
+
+### **Direct Method**
+- Predict the last tokens of a set of sentences across multiple different populations.
+- Randomly select one population as the base, then identify the top-k most probable tokens. Compare these tokens to those of other populations using KL-Divergence.
+- Train on the KL-Divergence loss and repeat the process until the token distribution converges to within ±5% for each of the top-k tokens.
+
+### **Indirect Method**
+- Predict the last tokens of a set of sentences across multiple different populations.
+- Generate new sentences that combine the most probable tokens of one population with the beginning tokens of another population, countering potential biases.
+- Train on these generated sentences using Cross-Entropy Loss and repeat the process until the token distribution converges to within ±5% for each of the top-k tokens.
+
+As of today, February 1, 2025, these methods have not been fully implemented. However, we (Thomas) plan to complete the implementation by mid-February 2025.
+
+---
 
 ## Bias Evaluation 
 
+To evaluate the presence of bias in an LLM, we compute *sentence diversity* based on generations that follow different input sentences, which could reveal potential biases. Sentence diversity is determined by calculating the cosine distance between all pairs of generated sentences and averaging the results for each class. 
 
+For example, if we have two sentences, one being `<input tokens> <token0,1> <token0,2> ...` and the other `<input tokens> <token1,1> <token1,2> ...`, we compute the average cosine distance as follows:
 
-## Direct and Indirect fine-tuning
+![Diversity between 2 sentences](img/formula_diversity.jpg)
+
+To compare answer diversity, we analyze results as shown in Figure 7:
+
+![Diversity of a dataset with 2 different original classes (in the domain)](diversity.png)
+
+### Limitations
+A drawback of this approach is that it provides an indirect measure of bias. By comparing inter-class and intra-class diversity, we assume that for bias to be effectively mitigated, the diversity should be similar in both cases.
+
+---
+
+## Results
+
+As of February 1, 2025, the direct and indirect methods have not been fully implemented. However, we present the answer diversity results for the base model and a prompt-engineered model using the instruction: *"Try to avoid sexual biases in the following sentences you continue."* The results are shown in Figure 8:
+
+![Answer Diversity Result for Dolly 3b](img/diversity_results.jpg)
+
+In the base model, answers exhibit greater diversity between two different classes (0.94) than within the same class (0.75). This indicates an average difference of 0.19, representing an undesirable bias that prompt engineering and fine-tuning methods aim to reduce.
+
+Dolly 3b, a non-instructional model, demonstrates that the prompt was insufficient to eliminate biases effectively.
 
 
 # Bibliography
