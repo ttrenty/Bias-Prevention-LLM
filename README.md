@@ -26,7 +26,7 @@ For example, recommending different jobs to individuals based on race—such as 
 .
 |-- README.md               # This file
 |-- LICENSE                 # MIT License
-|-- transformers.yml        # Conda environment dependencies; use `conda env create -f transformers.yml`
+|-- environment.yml        # Conda environment dependencies; use `conda env create -f environment.yml`
 |-- hands_on/               # Experimental files showcasing code snippets
 |    +-- ...
 |-- prompt_engineering/     # Files for genetic prompt engineering implementation and evaluation
@@ -37,6 +37,9 @@ For example, recommending different jobs to individuals based on race—such as 
 |    |-- fine_tune_decoder.ipynb                # Implementation of various fine-tuning approaches 
 |    |                                            (classic, direct (WIP), indirect (WIP))
 |    +-- evaluate_biases_decoder_model.ipynb    # Code for evaluating models on generation similarities
+|-- models/                 # Implementation of models for specific LLMs use cases
+|    |-- fine_tuning_text_to_text.ipynb         # Code of attempt to fine-tune encoder models
+|    +-- self_regulated_model.py                # Code of prompt-engineered model
 |-- data/                   # Text datasets
 |    |-- raw/                                   # Raw text datasets
 |    |    +-- ...  
